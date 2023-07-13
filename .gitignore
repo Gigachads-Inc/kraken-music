@@ -1,2 +1,6 @@
-package-lock.json
 node_modules
+<<<<<<< HEAD
+package-lock
+=======
+package-lock
+>>>>>>> f454e6c (feat: node-based http server and websocket)
