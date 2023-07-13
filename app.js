@@ -1,0 +1,11 @@
+const WebSocket = require('ws');
+const wss = new WebSocket.Server({ port: 7071 });
+
+const clients = new Map();
+
+// wss.on('connection', (ws) => {
+//     const id = uuidv4();
+//     const color = Math.floor(Math.random() * 360);
+//     const metadata = { id, color };
+
+//     clients.set(ws, metadata);
